@@ -2,9 +2,6 @@ import os
 from convert_xml_to_xlsx import convert_xml_to_array
 import csv
 
-#directory = input("Please enter the path of the folder containing all of the excel files.")
-#dir_path = directory
-dir_path = ("ex_combo/to_convert")
 directory = os.fsencode(dir_path)
 i = 0
 j = 0
